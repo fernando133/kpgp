@@ -6,5 +6,5 @@ Reference: ``` https://pypi.python.org/pypi/gnupg ```
 ## Install: 
 ```pip install python-gnupg ```
 
-<br/> To generate random numbers, you can also install the rng-tools package:
-<br/> ``` $ sudo apt-get install rng-tools ```
+#### To generate random numbers, you can also install the rng-tools package:
+``` $ sudo apt-get install rng-tools ```
