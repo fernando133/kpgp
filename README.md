@@ -4,7 +4,7 @@ Implementation for automate the use of PGP (Pretty Good Privacy) keys with the `
 Reference: ``` https://pypi.python.org/pypi/gnupg ```
 
 ## Install: 
-```pip install python-gnupg ```
+``` $ pip install python-gnupg ```
 
 #### To generate random numbers, you can also install the rng-tools package:
 ``` $ sudo apt-get install rng-tools ```
