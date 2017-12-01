@@ -3,7 +3,6 @@
 import gnupg
 import os
 class GpgHelper:
-    
     def __init__(self, directory=None):
         self.directory = directory+'/gpghome'
         os.system('rm -rf '+self.directory)
@@ -22,7 +21,7 @@ class GpgHelper:
 
     def export_keys(self, key):
         """
-        Export the keys to a file
+        Export the public and private keys to a file
         """
         gpg = gnupg.GPG()
         if not self.directory is None:
